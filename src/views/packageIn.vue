@@ -5,7 +5,7 @@
       <a-form-item label="运单号：" :label-col="{ span: 5 }" :wrapper-col="{ span: 12 }">
         <a-input
           v-decorator="[
-          'TrackNum',
+          'trackNum',
           {rules: [{ required: true, message: 'Please input your 运单号!' }]}
         ]"
         />
